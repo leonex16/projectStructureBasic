@@ -1,0 +1,78 @@
+// Colors
+$blueLight: rgb(0, 122, 255);
+$blueDark: rgb(10, 132, 255);
+
+$greenLight: rgb(52, 199, 89);
+$greenDark: rgb(48, 209, 88);
+
+$indigoLight: rgb(88, 86, 214);
+$indigoDark: rgb(94, 92, 230);
+
+$orangeLight: rgb(255, 149, 0);
+$orangeDark: rgb(255, 159, 10);
+
+$pinkLight: rgb(255, 45, 85);
+$pinkDark: rgb(255, 55, 95);
+
+$purpleLight: rgb(175, 82, 222);
+$purpleDark: rgb(191, 90, 242);
+
+$redLight: rgb(255, 59, 48);
+$redDark: rgb(255, 69, 58);
+
+$tealLight: rgb(90, 200, 250);
+$tealDark: rgb(100, 210, 255);
+
+$yellowLight: rgb(255, 204, 0);
+$yellowDark: rgb(255, 214, 10);
+
+$grayLigth100: rgb(142, 142, 147);
+$grayDark100: rgb(142, 142, 147);
+
+$grayLigth200: rgb(174, 174, 178);
+$grayDark200: rgb(99, 99, 102);
+
+$grayLigth300: rgb(199, 199, 204);
+$grayDark300: rgb(72, 72, 74);
+
+$grayLigth400: rgb(209, 209, 214);
+$grayDark400: rgb(58, 58, 60);
+
+$grayLigth500: rgb(229, 229, 234);
+$grayDark500: rgb(44, 44, 46);
+
+$grayLigth600: rgb(242, 242, 247);
+$grayDark600: rgb(28, 28, 30);
+
+// Font
+$fontSize: 16px;
+$fontFamily: Helvetica, sans-serif;
+
+// Margin & Padding
+$margin: 16px;
+$padding: 16px;
+$margin2: $margin / 2;
+$padding2: $padding / 2;
+
+$borderRadius: 5px;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $fontFamily ;
+  font-size: $fontSize;
+  line-height: $fontSize * 1.5;
+}
+
+h1{
+  font-size: $fontSize * 2;
+}
+
+h2{
+  font-size: $fontSize * 1.7;
+}
+
+h3{
+  font-size: $fontSize * 1.5;
+}
